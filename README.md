@@ -4,7 +4,7 @@
 Generates a config.json from AWS CodeCommit repos for use with etsy/hound
 
 ## Prerequisites
-
+- For use with the Etsy/Hound project: https://github.com/etsy/hound
 - Requires the AWS CLI tools for Linux: http://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux.html
 - Requires AWS IAM User access key ID and secrete key configured using `aws configure` and output type `json`
 - IAM User requires `AWSCodeCommitPowerUser` policy or simlar to perform clone operations

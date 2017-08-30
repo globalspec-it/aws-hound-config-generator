@@ -1,7 +1,7 @@
 # aws-hound-config-maker
 
 ## Description
-Generates a hound config.json from all of your AWS CodeCommit repos by automatically iterating through an AWS region.  Also supports manually adding other repos to the end of the file as well.
+Generates a hound `config.json` from all of your AWS CodeCommit repos by automatically iterating through an AWS region.  Also supports manually adding other repos to the end of the file as well.
 
 ## Prerequisites
 - For use with the Etsy/Hound project: https://github.com/etsy/hound
